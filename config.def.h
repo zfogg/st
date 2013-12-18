@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Droid Sans Mono:pixelsize=13:antialias=false:autohint=false";
-static int borderpx = 2;
-static char shell[] = "/bin/zsh";
+static char font[] = "DejaVu Sans Mono:pixelsize=15:antialias=true:autohint=true";
+static int borderpx = 0;
+static char shell[] = "/bin/sh";
 
 /* Kerning / character bounding-box mutlipliers */
 float cwscale = 1.0;
@@ -51,30 +51,27 @@ static unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+    // FIXME: @zfogg - bash16-tomorrow-dark colorscheme
 
-	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+    /* 8 normal colors */
+    "1d1f21",
+    "cc6666",
+    "b5bd68",
+    "f0c674",
+    "81a2be",
+    "b294bb",
+    "8abeb7",
+    "c5c8c6",
 
-	[255] = 0,
-
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
+    /* 8 bright colors */
+    "969896",
+    "de935f",
+    "a3685a",
+    "282a2e",
+    "373b41",
+    "b4b7b4",
+    "e0e0e0",
+    "ffffff",
 };
 
 
