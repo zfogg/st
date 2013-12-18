@@ -51,27 +51,32 @@ static unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-    // FIXME: @zfogg - bash16-tomorrow-dark colorscheme
+               // FIXME: @zfogg - bash16-tomorrow-default.dark
 
-    /* 8 normal colors */
-    "1d1f21",
-    "cc6666",
-    "b5bd68",
-    "f0c674",
-    "81a2be",
-    "b294bb",
-    "8abeb7",
-    "c5c8c6",
+    "#b0b0b0", // 00 Base_00 Black
+    "#fb0120", // 01 Base_08 Red
+    "#a1c659", // 02 Base_0B Green
+    "#fda331", // 03 Base_0A Yellow
+    "#6fb3d2", // 04 Base_0D Blue
+    "#d381c3", // 05 Base_0E Magenta
+    "#76c7b7", // 06 Base_0C Cyan
+    "#e0e0e0", // 07 Base_05 White
 
-    /* 8 bright colors */
-    "969896",
-    "de935f",
-    "a3685a",
-    "282a2e",
-    "373b41",
-    "b4b7b4",
-    "e0e0e0",
-    "ffffff",
+    "#000000", // 08 Base_03 Bright_Black
+    "#fb0120", // 09 Base_08 Bright_Red
+    "#a1c659", // 10 Base_0B Bright_Green
+    "#fda331", // 11 Base_0A Bright_Yellow
+    "#6fb3d2", // 12 Base_0D Bright_Blue
+    "#d381c3", // 13 Base_0E Bright_Magenta
+    "#76c7b7", // 14 Base_0C Bright_Cyan
+    "#ffffff", // 15 Base_07 Bright_White
+
+    "#fc6d24", // 16 Base_09
+    "#be643c", // 17 Base_0F
+    "#303030", // 18 Base_01
+    "#505050", // 19 Base_02
+    "#d0d0d0", // 20 Base_04
+    "#f5f5f5", // 21 Base_06
 };
 
 
@@ -79,9 +84,9 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor
  */
-static unsigned int defaultfg = 7;
-static unsigned int defaultbg = 0;
-static unsigned int defaultcs = 256;
+static unsigned int defaultfg =  7;
+static unsigned int defaultbg =  0;
+static unsigned int defaultcs = 15;
 
 /*
  * Colors used, when the specific fg == defaultfg. So in reverse mode this
