@@ -51,7 +51,7 @@ static unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-               // FIXME: @zfogg - bash16-tomorrow-default.dark
+    // FIXME: @zfogg - bash16-tomorrow-default.dark
 
     "#151515", // 00 Base_00 Black
     "#ac4142", // 01 Base_08 Red
