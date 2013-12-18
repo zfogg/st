@@ -29,7 +29,7 @@ st: ${OBJ}
 
 clean:
 	@echo cleaning
-	@rm -f st ${OBJ} st-${VERSION}.tar.gz
+	@rm -f st ${OBJ} st-${VERSION}.tar.gz config.h
 
 dist: clean
 	@echo creating dist tarball
