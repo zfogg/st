@@ -53,14 +53,14 @@ static unsigned int tabspaces = 8;
 static const char *colorname[] = {
                // FIXME: @zfogg - bash16-tomorrow-default.dark
 
-    "#b0b0b0", // 00 Base_00 Black
-    "#fb0120", // 01 Base_08 Red
-    "#a1c659", // 02 Base_0B Green
-    "#fda331", // 03 Base_0A Yellow
-    "#6fb3d2", // 04 Base_0D Blue
-    "#d381c3", // 05 Base_0E Magenta
-    "#76c7b7", // 06 Base_0C Cyan
-    "#e0e0e0", // 07 Base_05 White
+    "#151515", // 00 Base_00 Black
+    "#ac4142", // 01 Base_08 Red
+    "#90a959", // 02 Base_0B Green
+    "#f4bf75", // 03 Base_0A Yellow
+    "#6a9fb5", // 04 Base_0D Blue
+    "#aa759f", // 05 Base_0E Magenta
+    "#75b5aa", // 06 Base_0C Cyan
+    "#f5f5f5", // 07 Base_05 White
 
     "#000000", // 08 Base_03 Bright_Black
     "#fb0120", // 09 Base_08 Bright_Red
@@ -71,12 +71,12 @@ static const char *colorname[] = {
     "#76c7b7", // 14 Base_0C Bright_Cyan
     "#ffffff", // 15 Base_07 Bright_White
 
-    "#fc6d24", // 16 Base_09
-    "#be643c", // 17 Base_0F
+    "#d28445", // 16 Base_09
+    "#8f5536", // 17 Base_0F
     "#303030", // 18 Base_01
     "#505050", // 19 Base_02
     "#d0d0d0", // 20 Base_04
-    "#f5f5f5", // 21 Base_06
+    "#e0e0e0", // 21 Base_06
 };
 
 
